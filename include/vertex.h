@@ -10,6 +10,7 @@ class vertex
         virtual ~vertex();
 
         vector3d_ position;
+        vector3d_ normal;
 
 };
 
