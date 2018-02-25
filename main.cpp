@@ -22,8 +22,13 @@ int main()
     matrix_ m(a);
 
     vector3d_ o = m*b;
+
+    */
+    /*
+    vector3d_ a(1,2,1);
+    vector3d_ b(2,4,1);
+    vector3d_ o = a.crossProductWith(b);
     cout<<o.x<<" , "<< o.y<< " ,"<< o.z <<" ," <<o.p;
     */
-
     return 0;
 }

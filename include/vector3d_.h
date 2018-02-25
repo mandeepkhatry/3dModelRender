@@ -2,7 +2,6 @@
 #define VECTOR3D__H
 
 #include<cmath>
-
 class vector3d_
 {
     public:
@@ -11,6 +10,8 @@ class vector3d_
         virtual ~vector3d_();
 
         double getMagnitude(){return sqrt(x*x+y*y+z*z);}
+
+        vector3d_ crossProductWith(vector3d_);
 
         double x,y,z,p;
 };
