@@ -35,10 +35,12 @@
 			<Add option="-fexceptions" />
 		</Compiler>
 		<Unit filename="include/face.h" />
+		<Unit filename="include/model.h" />
 		<Unit filename="include/vector3d_.h" />
 		<Unit filename="include/vertex.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/face.cpp" />
+		<Unit filename="src/model.cpp" />
 		<Unit filename="src/vector3d_.cpp" />
 		<Unit filename="src/vertex.cpp" />
 		<Extensions>
