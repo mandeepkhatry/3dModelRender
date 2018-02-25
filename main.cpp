@@ -1,12 +1,13 @@
 #include <iostream>
 #include <model.h>
-#include<vector3d_.h>
+#include <vector3d_.h>
+#include <matrix_.h>
 using namespace std;
 
 int main()
 {
     //testing
-    model m;
+    /*model m;
     char file[20] = "model.obj";
     m.loadModel(file);
 
@@ -14,5 +15,15 @@ int main()
         //cout<<m.faces[i].vertex1Index[0]<<"//"<<m.faces[i].vertex1Index[1]<<" "<<m.faces[i].vertex2Index[0]<<"//"<<m.faces[i].vertex2Index[1]<<" "<<m.faces[i].vertex3Index[0]<<"//"<<m.faces[i].vertex3Index[1]<<endl;
         cout<<m.vertices[m.faces[i].vertex1Index[0]].position.x<<" "<<m.vertices[m.faces[i].vertex2Index[0]].position.x<<" "<<m.vertices[m.faces[i].vertex3Index[0]].position.x<<endl;
     }
+    */
+    /*
+    float a[4][4] = {{1,1,1,1},{1,1,1,1},{1,1,1,1}};
+    vector3d_ b(1,2,3,4);
+    matrix_ m(a);
+
+    vector3d_ o = m*b;
+    cout<<o.x<<" , "<< o.y<< " ,"<< o.z <<" ," <<o.p;
+    */
+
     return 0;
 }
