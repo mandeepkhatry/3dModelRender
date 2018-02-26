@@ -1,6 +1,6 @@
 
 #include "matrix_.h"
-
+#include <iostream>
 #include <vector3d_.h>
 
 matrix_::matrix_()
@@ -45,5 +45,16 @@ vector3d_ operator *(matrix_ mat, vector3d_ b){
     }
     vector3d_ o(tem[0], tem[1], tem[2], tem[3]);
     return (o);
+
+}
+
+void matrix_::display(){
+
+    for(int i=0;i<column;i++){
+        for(int j=0;j<row;j++){
+            std::cout << m[i][j] << " ";
+        }
+        std::cout<<std::endl;
+    }
 
 }

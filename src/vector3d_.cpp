@@ -21,3 +21,7 @@ vector3d_ vector3d_::  crossProductWith(vector3d_ b){
     vector3d_ o(y*b.z-z*b.y  ,b.x*z-x*b.z  ,x*b.y-y*b.x);
     return o;
 }
+
+vector3d_ vector3d_::unitVector(){
+    return vector3d_(x/getMagnitude(),y/getMagnitude(),z/getMagnitude());
+}

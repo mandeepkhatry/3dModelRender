@@ -13,6 +13,8 @@ class vector3d_
 
         vector3d_ crossProductWith(vector3d_);
 
+        vector3d_ unitVector();
+
         double x,y,z,p;
 };
 

@@ -2,6 +2,7 @@
 #include <model.h>
 #include <vector3d_.h>
 #include <matrix_.h>
+#include <cmath>
 using namespace std;
 
 int main()
@@ -30,5 +31,6 @@ int main()
     vector3d_ o = a.crossProductWith(b);
     cout<<o.x<<" , "<< o.y<< " ,"<< o.z <<" ," <<o.p;
     */
+
     return 0;
 }
