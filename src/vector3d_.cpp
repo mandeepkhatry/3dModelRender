@@ -25,3 +25,7 @@ vector3d_ vector3d_::  crossProductWith(vector3d_ b){
 vector3d_ vector3d_::unitVector(){
     return vector3d_(x/getMagnitude(),y/getMagnitude(),z/getMagnitude());
 }
+
+vector3d_ operator- (vector3d_ a, vector3d_ b){
+    return vector3d_(a.x-b.x,a.y-b.y,a.z-b.z);
+}

@@ -11,6 +11,9 @@ class vector3d_
 
         double getMagnitude(){return sqrt(x*x+y*y+z*z);}
 
+        friend vector3d_ operator-(vector3d_,vector3d_);
+
+
         vector3d_ crossProductWith(vector3d_);
 
         vector3d_ unitVector();

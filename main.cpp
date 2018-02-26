@@ -3,6 +3,7 @@
 #include <vector3d_.h>
 #include <matrix_.h>
 #include <cmath>
+#include <camera.h>
 using namespace std;
 
 int main()
@@ -30,6 +31,13 @@ int main()
     vector3d_ b(2,4,1);
     vector3d_ o = a.crossProductWith(b);
     cout<<o.x<<" , "<< o.y<< " ,"<< o.z <<" ," <<o.p;
+    */
+    /*vector3d_ a(1,1,1);
+    vector3d_ b(3,4,5);
+    vector3d_ c(0,1,0);
+
+    camera cam(a,b,c);
+    cam.getTransformationMatrix().display();
     */
 
     return 0;

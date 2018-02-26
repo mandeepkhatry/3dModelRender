@@ -12,7 +12,11 @@ class matrix_
         matrix_(float mat[column][row]);
 
         void display();
+
         friend vector3d_ operator *(matrix_,vector3d_);
+
+        friend matrix_ operator *(matrix_,matrix_);
+
 
         virtual ~matrix_();
 
