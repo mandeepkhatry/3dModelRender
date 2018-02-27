@@ -16,13 +16,17 @@
 1519143056 e:\3dmodelrender\include\vertex.h
 	<vector3d_.h>
 
-1519639555 source:e:\3dmodelrender\main.cpp
+1519724367 source:e:\3dmodelrender\main.cpp
 	<iostream>
 	<model.h>
 	<vector3d_.h>
 	<matrix_.h>
 	<cmath>
 	<camera.h>
+	<projection.h>
+	<conio.h>
+	<line.h>
+	<graphics.h>
 
 1519220157 e:\3dmodelrender\include\model.h
 	<vertex.h>
@@ -39,10 +43,11 @@
 1519613602 e:\3dmodelrender\include\matrix_.h
 	<vector3d_.h>
 
-1519639454 source:e:\3dmodelrender\src\matrix_.cpp
+1519639711 source:e:\3dmodelrender\src\matrix_.cpp
 	"matrix_.h"
 	<iostream>
 	<vector3d_.h>
+	<iomanip>
 
 1519639494 source:e:\3dmodelrender\src\camera.cpp
 	"camera.h"
@@ -50,4 +55,14 @@
 1519638295 e:\3dmodelrender\include\camera.h
 	<vector3d_.h>
 	<matrix_.h>
+
+1519724452 e:\3dmodelrender\include\projection.h
+	<vector3d_.h>
+	<camera.h>
+	<matrix_.h>
+
+1519717678 e:\3dmodelrender\include\line.h
+	<graphics.h>
+	<math.h>
+	<vector3d_.h>
 
