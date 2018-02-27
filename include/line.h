@@ -24,7 +24,7 @@ void drawLine(vector3d_ A, vector3d_ B){
     float x = A.x, y = A.y;
     do
     {
-        putpixel(round(x)+100,round(y)+100, RED);
+        putpixel(round(x),round(y), RED);
         x+= xInc; y+= yInc; dVal+= dInc;
         k++;
     }

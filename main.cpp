@@ -18,23 +18,20 @@ int main()
     char file[20] = "model.obj";
     m.loadModel(file);
 
-    vector3d_ a(50,50,50);
+    vector3d_ a(0,50,50);
     vector3d_ b(0,0,1);
     vector3d_ c(0,1,0);
 
     int gdriver = DETECT, gmode;
     initgraph(&gdriver, &gmode,NULL);
 
-
+    camera cam(a,b,c);
 
     for(int i=0;i<m.faceCount;i++){
-        camera cam1(a,b,c);
-        camera cam2(a,b,c);
-        camera cam3(a,b,c);
 
-        drawLine(projectPoint(m.vertices[m.faces[i].vertex1Index[0]].position,cam1),projectPoint(m.vertices[m.faces[i].vertex2Index[0]].position,cam2));
-        drawLine(projectPoint(m.vertices[m.faces[i].vertex2Index[0]].position,cam2),projectPoint(m.vertices[m.faces[i].vertex3Index[0]].position,cam3));
-        drawLine(projectPoint(m.vertices[m.faces[i].vertex3Index[0]].position,cam3),projectPoint(m.vertices[m.faces[i].vertex1Index[0]].position,cam1));
+        drawLine(projectPoint(m.vertices[m.faces[i].vertex1Index[0]].position,cam),projectPoint(m.vertices[m.faces[i].vertex2Index[0]].position,cam));
+        drawLine(projectPoint(m.vertices[m.faces[i].vertex2Index[0]].position,cam),projectPoint(m.vertices[m.faces[i].vertex3Index[0]].position,cam));
+        drawLine(projectPoint(m.vertices[m.faces[i].vertex3Index[0]].position,cam),projectPoint(m.vertices[m.faces[i].vertex1Index[0]].position,cam));
 
     }
     getch();

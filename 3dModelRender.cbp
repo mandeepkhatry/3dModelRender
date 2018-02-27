@@ -48,6 +48,7 @@
 		<Unit filename="include/matrix_.h" />
 		<Unit filename="include/model.h" />
 		<Unit filename="include/projection.h" />
+		<Unit filename="include/transformation.h" />
 		<Unit filename="include/vector3d_.h" />
 		<Unit filename="include/vertex.h" />
 		<Unit filename="main.cpp" />
