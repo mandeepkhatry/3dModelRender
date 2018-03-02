@@ -14,8 +14,8 @@ camera::camera(vector3d_ lookFrom, vector3d_ lookA, vector3d_ viewUp)
 {
     position = lookFrom;
     n = (lookFrom-lookA).unitVector();
-    v = viewUp.unitVector();
-    u = viewUp.crossProductWith(lookFrom-lookA).unitVector();
+    u = viewUp.crossProductWith(n).unitVector();
+    v = n.crossProductWith(u);
 }
 
 

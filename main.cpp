@@ -15,12 +15,13 @@ int main()
 {
     //testing
     model m;
-    char file[20] = "model.obj";
+    char file[20] = "teacup.obj";
     m.loadModel(file);
 
-    vector3d_ a(0,50,50);
+    vector3d_ a(0,20,50);
     vector3d_ b(0,0,1);
     vector3d_ c(0,1,0);
+
 
     int gdriver = DETECT, gmode;
     initgraph(&gdriver, &gmode,NULL);

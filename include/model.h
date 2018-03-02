@@ -11,8 +11,8 @@ class model
 
         bool loadModel(const char *);
 
-        vertex *vertices = new vertex[30000]; // properties - >position and normal in vector3d_
-        face *faces = new face[30000];
+        vertex *vertices = new vertex[45000]; // properties - >position and normal in vector3d_
+        face *faces = new face[45000];
 
         int vertexCount, faceCount, normalCount;
 

@@ -16,7 +16,7 @@
 1519143056 e:\3dmodelrender\include\vertex.h
 	<vector3d_.h>
 
-1519746878 source:e:\3dmodelrender\main.cpp
+1519995163 source:e:\3dmodelrender\main.cpp
 	<iostream>
 	<model.h>
 	<vector3d_.h>
@@ -28,12 +28,12 @@
 	<line.h>
 	<graphics.h>
 
-1519746865 e:\3dmodelrender\include\model.h
+1519749749 e:\3dmodelrender\include\model.h
 	<vertex.h>
 	<face.h>
 	<vector3d_.h>
 
-1519730266 source:e:\3dmodelrender\src\model.cpp
+1519749936 source:e:\3dmodelrender\src\model.cpp
 	"model.h"
 	<iostream>
 	<cstring>
@@ -49,14 +49,14 @@
 	<vector3d_.h>
 	<iomanip>
 
-1519639494 source:e:\3dmodelrender\src\camera.cpp
+1519995956 source:e:\3dmodelrender\src\camera.cpp
 	"camera.h"
 
 1519638295 e:\3dmodelrender\include\camera.h
 	<vector3d_.h>
 	<matrix_.h>
 
-1519746758 e:\3dmodelrender\include\projection.h
+1519996653 e:\3dmodelrender\include\projection.h
 	<vector3d_.h>
 	<camera.h>
 	<matrix_.h>
@@ -67,7 +67,8 @@
 	<math.h>
 	<vector3d_.h>
 
-1519727454 e:\3dmodelrender\include\transformation.h
+1519996613 e:\3dmodelrender\include\transformation.h
 	<matrix_.h>
 	<vector3d_.h>
+	<cmath>
 
